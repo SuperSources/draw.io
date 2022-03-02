@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T11:16:44.625Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="57AsD4vlbGQxorChiXg8" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-02T03:39:40.363Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="CmMz8WtuG270fv-3EEck" version="16.6.4" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1038" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2089" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -87,6 +87,9 @@
         <mxCell id="7aEkhH2fnmOaqYkedOU2-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="7baba1c4bc27f4b0-8" vertex="1">
           <mxGeometry x="50" y="130" width="10" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="XbXFC11bnk-1uhZiBGYb-1" value="Note" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="7baba1c4bc27f4b0-8">
+          <mxGeometry y="-50" width="100" height="35" as="geometry" />
+        </mxCell>
         <mxCell id="7baba1c4bc27f4b0-40" value="Note" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="174" y="30" width="100" height="35" as="geometry" />
         </mxCell>
@@ -105,14 +108,8 @@
         <mxCell id="7baba1c4bc27f4b0-45" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 1px ; text-align: center ; background-color: rgb(255 , 255 , 255)&quot;&gt;用于启动目标Activity&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="894" y="30" width="100" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="7aEkhH2fnmOaqYkedOU2-1" value="onRemoteEndpointDiscovered" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=-0.023;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="7baba1c4bc27f4b0-9" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="14" y="180" as="sourcePoint" />
-            <mxPoint x="214" y="180" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="7aEkhH2fnmOaqYkedOU2-3" value="（检测到tag时调用）" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="49" y="180" width="130" height="20" as="geometry" />
+          <mxGeometry x="-120" y="160" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="7aEkhH2fnmOaqYkedOU2-9" value="findAndReadNdef" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.033;entryY=0.156;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7baba1c4bc27f4b0-10" target="7baba1c4bc27f4b0-13" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -163,6 +160,42 @@
             <Array as="points">
               <mxPoint x="85" y="230" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XbXFC11bnk-1uhZiBGYb-9" value="&lt;span style=&quot;color: rgb(77 , 77 , 77) ; font-family: , &amp;#34;sf ui text&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , sans-serif , &amp;#34;simhei&amp;#34; , &amp;#34;simsun&amp;#34; ; font-size: 16px ; font-style: italic ; text-indent: 28px&quot;&gt;notifyNdefMessageListene&lt;/span&gt;&lt;wbr style=&quot;box-sizing: border-box ; outline: 0px ; overflow-wrap: break-word ; color: rgb(77 , 77 , 77) ; font-family: , &amp;#34;sf ui text&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , sans-serif , &amp;#34;simhei&amp;#34; , &amp;#34;simsun&amp;#34; ; font-size: 16px ; font-style: italic ; text-indent: 28px&quot;&gt;&lt;span style=&quot;color: rgb(77 , 77 , 77) ; font-family: , &amp;#34;sf ui text&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , sans-serif , &amp;#34;simhei&amp;#34; , &amp;#34;simsun&amp;#34; ; font-size: 16px ; font-style: italic ; text-indent: 28px&quot;&gt;rs&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.052;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-180" y="160" as="sourcePoint" />
+            <mxPoint x="55.51999999999998" y="160.29999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XbXFC11bnk-1uhZiBGYb-10" value="&lt;span style=&quot;color: rgb(77 , 77 , 77) ; font-family: , &amp;#34;sf ui text&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , sans-serif , &amp;#34;simhei&amp;#34; , &amp;#34;simsun&amp;#34; ; font-size: 16px ; font-style: italic ; text-indent: 28px ; background-color: rgb(255 , 255 , 255)&quot;&gt;NativeNfcManager&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="7" y="80" width="103" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="XbXFC11bnk-1uhZiBGYb-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="XbXFC11bnk-1uhZiBGYb-10">
+          <mxGeometry x="48" y="80" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XbXFC11bnk-1uhZiBGYb-12" value="Note" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="XbXFC11bnk-1uhZiBGYb-10">
+          <mxGeometry x="3" y="-50" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="XbXFC11bnk-1uhZiBGYb-14" value="（检测到tag时调用）" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="XbXFC11bnk-1uhZiBGYb-10">
+          <mxGeometry x="-127" y="80" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XbXFC11bnk-1uhZiBGYb-15" value="&lt;span style=&quot;color: rgb(77 , 77 , 77) ; font-family: , &amp;#34;sf ui text&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , sans-serif , &amp;#34;simhei&amp;#34; , &amp;#34;simsun&amp;#34; ; font-size: 16px ; font-style: italic ; text-indent: 28px&quot;&gt;notifyNdefMessageListene&lt;/span&gt;&lt;wbr style=&quot;box-sizing: border-box ; outline: 0px ; overflow-wrap: break-word ; color: rgb(77 , 77 , 77) ; font-family: , &amp;#34;sf ui text&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , sans-serif , &amp;#34;simhei&amp;#34; , &amp;#34;simsun&amp;#34; ; font-size: 16px ; font-style: italic ; text-indent: 28px&quot;&gt;&lt;span style=&quot;color: rgb(77 , 77 , 77) ; font-family: , &amp;#34;sf ui text&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , sans-serif , &amp;#34;simhei&amp;#34; , &amp;#34;simsun&amp;#34; ; font-size: 16px ; font-style: italic ; text-indent: 28px&quot;&gt;rs&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.052;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="XbXFC11bnk-1uhZiBGYb-10">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-187" y="80" as="sourcePoint" />
+            <mxPoint x="48.51999999999998" y="80.29999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XbXFC11bnk-1uhZiBGYb-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="XbXFC11bnk-1uhZiBGYb-10">
+          <mxGeometry x="48" y="80" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XbXFC11bnk-1uhZiBGYb-17" value="Note" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="XbXFC11bnk-1uhZiBGYb-10">
+          <mxGeometry x="3" y="-50" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="7aEkhH2fnmOaqYkedOU2-1" value="onRemoteEndpointDiscovered" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=-0.023;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="7baba1c4bc27f4b0-9" edge="1" source="XbXFC11bnk-1uhZiBGYb-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="180" as="sourcePoint" />
+            <mxPoint x="214" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
