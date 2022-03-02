@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T02:02:07.023Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="TdhbMyJPuylA9B6f6MS7" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-02T03:19:39.446Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="uFLPCrdnJsNdyt0olDZ-" version="16.6.4" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1038" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -167,6 +167,9 @@
         </mxCell>
         <mxCell id="-loWOBMDPaf_zWbP4MA2-64" value="根据aid从ese、uicc、hce获取entry，生成原始路由表" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="960" y="17.5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P8vUj3EyvsL8XkM7lRFA-1" value="&lt;font color=&quot;#ff0000&quot;&gt;追溯NfcAdapter.enable()&lt;br&gt;往下层的调用过程&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="220" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
