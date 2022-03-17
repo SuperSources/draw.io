@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-16T17:49:04.917Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="fC-Lj7YIjMkGHVQeFJ5h" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-17T07:22:59.997Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="4Fk74xKleBYVkb4i1qYO" version="17.1.3" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="838" dy="428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="986" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -100,7 +100,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2GdhyHXG3PzUkVWqFxI4-2" value="&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;iLogCapture = return&amp;nbsp;mBinder&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7baba1c4bc27f4b0-30" vertex="1" connectable="0">
+        <mxCell id="2GdhyHXG3PzUkVWqFxI4-2" value="&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;iLogCapture&lt;/font&gt; = return&amp;nbsp;mBinder&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7baba1c4bc27f4b0-30" vertex="1" connectable="0">
           <mxGeometry x="-0.0239" y="2" relative="1" as="geometry">
             <mxPoint x="-9" y="8" as="offset" />
           </mxGeometry>
@@ -127,7 +127,7 @@
             <mxPoint x="834.6199999999999" y="280.45000000000005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2GdhyHXG3PzUkVWqFxI4-10" value="iLogCapture.registerLogListener(mListener)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2GdhyHXG3PzUkVWqFxI4-5" vertex="1" connectable="0">
+        <mxCell id="2GdhyHXG3PzUkVWqFxI4-10" value="&lt;font color=&quot;#ff0000&quot;&gt;iLogCapture&lt;/font&gt;.registerLogListener(&lt;font color=&quot;#00ff00&quot;&gt;mListener&lt;/font&gt;)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2GdhyHXG3PzUkVWqFxI4-5" vertex="1" connectable="0">
           <mxGeometry x="0.0311" y="-1" relative="1" as="geometry">
             <mxPoint x="-5" y="11" as="offset" />
           </mxGeometry>
@@ -143,7 +143,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2GdhyHXG3PzUkVWqFxI4-16" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;mListener.onLogCapture(outputLog)&lt;/span&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2GdhyHXG3PzUkVWqFxI4-15" vertex="1" connectable="0">
+        <mxCell id="2GdhyHXG3PzUkVWqFxI4-16" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#00ff00&quot;&gt;mListener&lt;/font&gt;.onLogCapture(outputLog)&lt;/span&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2GdhyHXG3PzUkVWqFxI4-15" vertex="1" connectable="0">
           <mxGeometry x="-0.0239" y="2" relative="1" as="geometry">
             <mxPoint x="-9" y="8" as="offset" />
           </mxGeometry>
@@ -157,7 +157,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2GdhyHXG3PzUkVWqFxI4-18" value="iLogCapture.addLogFilter()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2GdhyHXG3PzUkVWqFxI4-17" vertex="1" connectable="0">
+        <mxCell id="2GdhyHXG3PzUkVWqFxI4-18" value="&lt;font color=&quot;#ff0000&quot;&gt;iLogCapture&lt;/font&gt;.addLogFilter()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2GdhyHXG3PzUkVWqFxI4-17" vertex="1" connectable="0">
           <mxGeometry x="0.0311" y="-1" relative="1" as="geometry">
             <mxPoint x="-5" y="11" as="offset" />
           </mxGeometry>
@@ -168,7 +168,7 @@
             <mxPoint x="835" y="439.83333333333337" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2GdhyHXG3PzUkVWqFxI4-20" value="iLogCapture.setLogCaptureEnable(true)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2GdhyHXG3PzUkVWqFxI4-19" vertex="1" connectable="0">
+        <mxCell id="2GdhyHXG3PzUkVWqFxI4-20" value="&lt;font color=&quot;#ff0000&quot;&gt;iLogCapture&lt;/font&gt;.setLogCaptureEnable(true)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2GdhyHXG3PzUkVWqFxI4-19" vertex="1" connectable="0">
           <mxGeometry x="0.0311" y="-1" relative="1" as="geometry">
             <mxPoint x="-5" y="11" as="offset" />
           </mxGeometry>
