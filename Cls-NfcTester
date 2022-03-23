@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-23T09:01:04.959Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="CzvNFWWj2gzeQ6LEzvYw" version="17.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-23T09:06:31.209Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="eHkEz6cSEngvxmcxEdq0" version="17.1.5" type="github">
   <diagram id="QoKr6p8bpQWLhfByDsbf" name="Page-1">
-    <mxGraphModel dx="1397" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="986" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,7 +34,7 @@
         </mxCell>
         <mxCell id="P2e9fvdROdAZkxBRrJMP-32" value="NfcTesterActivity" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="800" y="450" width="200" height="100" as="geometry">
-            <mxRectangle x="800" y="280" width="100" height="26" as="alternateBounds" />
+            <mxRectangle x="800" y="450" width="100" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="P2e9fvdROdAZkxBRrJMP-33" value="+ method(Boolean): before&#xa;+ method(Boolean): doTest&#xa;+ method(Boolean): after&#xa;+ method(Boolean): onTestStopped" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="P2e9fvdROdAZkxBRrJMP-32">
@@ -48,13 +48,13 @@
         </mxCell>
         <mxCell id="P2e9fvdROdAZkxBRrJMP-36" value="NfcStressTesterStyle1Activity" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="800" y="640" width="200" height="100" as="geometry">
-            <mxRectangle x="800" y="280" width="100" height="26" as="alternateBounds" />
+            <mxRectangle x="800" y="640" width="100" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="P2e9fvdROdAZkxBRrJMP-37" value="+ method(Boolean): before&#xa;+ method(Boolean): doTest&#xa;+ method(Boolean): after&#xa;+ method(Boolean): onTestStopped" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="P2e9fvdROdAZkxBRrJMP-36">
           <mxGeometry y="26" width="200" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="P2e9fvdROdAZkxBRrJMP-40" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="P2e9fvdROdAZkxBRrJMP-36">
+        <mxCell id="P2e9fvdROdAZkxBRrJMP-40" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="P2e9fvdROdAZkxBRrJMP-36" target="P2e9fvdROdAZkxBRrJMP-33">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="700" y="580" as="sourcePoint" />
             <mxPoint x="900" y="550" as="targetPoint" />
