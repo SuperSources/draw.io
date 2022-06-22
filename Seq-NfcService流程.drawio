@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-22T07:45:53.584Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3883.400 QQBrowser/10.8.4559.400" etag="XvRVNRG7ifHmYKPM4hUy" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-22T08:02:09.916Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3883.400 QQBrowser/10.8.4559.400" etag="pliVNiAFduDgYWIR7qgK" version="20.0.1" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2522" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -139,6 +139,47 @@
         </mxCell>
         <mxCell id="9VZuEroF-M2RnntoSqyA-37" value="Log:&lt;br&gt;commitRouting() called" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="-240" y="870" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pnL1YgroGeVuLW7YhTTa-1" value="NfcService.java" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="550" y="60" width="100" height="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="pnL1YgroGeVuLW7YhTTa-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="pnL1YgroGeVuLW7YhTTa-1">
+          <mxGeometry x="45" y="100" width="10" height="950" as="geometry" />
+        </mxCell>
+        <mxCell id="pnL1YgroGeVuLW7YhTTa-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pnL1YgroGeVuLW7YhTTa-1">
+          <mxGeometry x="50" y="110" width="10" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="pnL1YgroGeVuLW7YhTTa-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pnL1YgroGeVuLW7YhTTa-1">
+          <mxGeometry x="50" y="360" width="10" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="pnL1YgroGeVuLW7YhTTa-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pnL1YgroGeVuLW7YhTTa-1">
+          <mxGeometry x="55" y="170" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pnL1YgroGeVuLW7YhTTa-8" value="&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;new EnableDisableTask().execute(TASK_DISABLE);&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Log:&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Disabling NFC&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="pnL1YgroGeVuLW7YhTTa-1" target="pnL1YgroGeVuLW7YhTTa-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="150" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pnL1YgroGeVuLW7YhTTa-11" value="关闭NFC" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=middle;align=center;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
+          <mxGeometry x="550" y="10" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="pnL1YgroGeVuLW7YhTTa-12" value="&lt;font face=&quot;Verdana&quot;&gt;NfcAdapterService.&lt;span style=&quot;font-size: 11px;&quot;&gt;disable&lt;/span&gt;(true)&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="360" y="171" as="sourcePoint" />
+            <mxPoint x="600" y="171.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pnL1YgroGeVuLW7YhTTa-13" value="clearT3tIdentifiersCache()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.1;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="pnL1YgroGeVuLW7YhTTa-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="360" y="420" as="sourcePoint" />
+            <mxPoint x="550" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pnL1YgroGeVuLW7YhTTa-18" value="Log:&lt;br&gt;clear T3t Identifiers Cache" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="420" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
