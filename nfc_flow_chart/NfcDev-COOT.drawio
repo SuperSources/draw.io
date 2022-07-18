@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-18T11:32:49.624Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3883.400 QQBrowser/10.8.4559.400" etag="8PUVzmR1gq0DsPLb9y14" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-18T11:35:53.670Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3883.400 QQBrowser/10.8.4559.400" etag="0E9Qj2Y1N3_r6uLoy5MU" version="20.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="981" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -142,6 +142,11 @@
             <mxPoint x="445" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="aPiGwdbdEGC97z-kFM5p-36" value="MODE OMA / MODE SN" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aPiGwdbdEGC97z-kFM5p-22">
+          <mxGeometry x="-0.179" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="aPiGwdbdEGC97z-kFM5p-23" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aPiGwdbdEGC97z-kFM5p-21" target="aPiGwdbdEGC97z-kFM5p-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="495" y="430" as="sourcePoint" />
@@ -184,6 +189,9 @@
           <mxGeometry x="0.1732" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="aPiGwdbdEGC97z-kFM5p-35" value="S帧会由协议栈处理，&lt;br&gt;不上报给上层" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="505" y="730" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
