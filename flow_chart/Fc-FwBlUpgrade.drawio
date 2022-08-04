@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T09:01:18.326Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3883.400 QQBrowser/10.8.4559.400" etag="aj9i_Qs-s4hSkdwKAylW" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T09:06:34.028Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3883.400 QQBrowser/10.8.4559.400" etag="UhZm_eSaHwyZu4NMZ5QY" version="20.2.3" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1185" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -208,13 +208,6 @@
         <mxCell id="fB2f3T5bGvMoDqR02asQ-34" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeColor=#000000;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="113" y="120" width="20" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="fB2f3T5bGvMoDqR02asQ-35" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="510" y="370" as="sourcePoint" />
-            <mxPoint x="590" y="370" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="fB2f3T5bGvMoDqR02asQ-36" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;4&lt;br&gt;获&lt;br&gt;取&lt;br&gt;芯&lt;br&gt;片&lt;br&gt;的&lt;br&gt;fw_bl&lt;br&gt;版&lt;br&gt;本&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="220" width="180" height="40" as="geometry" />
         </mxCell>
@@ -222,7 +215,7 @@
           <mxGeometry x="113" y="520" width="20" height="400" as="geometry" />
         </mxCell>
         <mxCell id="fB2f3T5bGvMoDqR02asQ-38" value="&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Fira Sans, Droid Sans, Helvetica Neue, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;5&lt;br&gt;&lt;/span&gt;&lt;/font&gt;升&lt;br&gt;级&lt;br&gt;fw_bl" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="680" width="180" height="40" as="geometry" />
+          <mxGeometry x="85" y="680" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
